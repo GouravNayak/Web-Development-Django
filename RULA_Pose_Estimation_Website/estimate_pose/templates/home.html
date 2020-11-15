@@ -1,0 +1,37 @@
+{% extends "index.html" %}
+{% block content %}
+<div>
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
+        <p class="lead">A great starter layout for a landing page</p>
+      </div>
+    </div>
+  </div>
+</header>
+</div>
+<!-- Page Startup Modal -->
+<div class="container">
+  <div class="modal fade" id="saveImageInfoModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="saveImageInfoModal-title">Important Information</h4>
+        </div>
+        <div class="modal-body">
+          <p>Please give consent to store your uploaded data</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+        </div>
+      </div>
+
+    </div>
+  </div></div>
+<!-- Page Startup Modal ends here -->
+{% endblock %}
